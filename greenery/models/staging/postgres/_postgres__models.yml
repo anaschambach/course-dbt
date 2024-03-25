@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_postgres__addresses
+    description: Contains a user's address, zipcode, state, and country
+  - name: stg_postgres__events
+    description: Contains a user's website session information
+  - name: stg_postgres__order_items
+    description: Contains an order's product id and quantity
+  - name: stg_postgres__orders
+    description: Contains a user's order details
+  - name: stg_postgres__products
+    description: Contains a product's name, price, and inventory
+  - name: stg_postgres__promos
+    description: Contains a promo's discount and status
+  - name: stg_postgres__users
+    description: Contains a user's contact information
